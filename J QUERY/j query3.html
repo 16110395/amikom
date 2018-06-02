@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery Selection</title>
+	<script src="JS/jquery.min.js"></script>
+	<script>
+	$ (document) .ready(function() {
+		$ ("button") .click (function(){
+			$("#div1").fadeToggle();
+			$("#div2").fadeToggle("slow");
+			$("#div1").fadeToggle(3000);
+		});
+	});
+	</script>
+</head>
+<body>
+	<p>fadetoogle (). </p>
+	<button>fade in/out boxes</button><br><br>
+
+	<div id="div1" style="width: 80px;height: 80px;background-color: red;"></div>
+	<div id="div1" style="width: 80px;height: 80px;background-color: green;"></div>
+	<div id="div1" style="width: 80px;height: 80px;background-color: blue;"></div>
+	
+</body>
+</html>
